@@ -1,0 +1,377 @@
+/* GLOBAL */
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.btn {
+  background: #00BEC9;
+  padding: 12px 30px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 0.4em;
+  line-height: 30px;
+  letter-spacing: 0.07em;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background: #00BEC9;
+}
+
+button {
+  border: none;
+}
+
+.btn2 {
+  border-color: #ffffff;
+  border: solid 3px;
+  padding: 10px 30px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 0.4em;
+  line-height: 30px;
+  letter-spacing: 0.07em;
+  margin-left: 35px;
+}
+
+.subtitulo {
+  font-size: 70px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 80px;
+  color: #343434;
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+}
+
+.p-subtitulo {
+  font-size: 20px;
+  font-weight: light;
+  line-height: 25px;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 2%;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* FIM GLOBAL */
+
+/* HEADER */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #DAAC00;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header-menu {
+  text-align: center;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.header-menu ul li a {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.menu-link:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 5px;
+  background: #00BEC9;
+  transition: width 0.3s;
+  margin-top: 10%;
+}
+
+.menu-link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+  margin-top: 10%;
+  background: #00BEC9;
+}
+
+.menu-link ul li.active {
+  color: var(--vermelho);
+}
+
+/* FIM HEADER */
+
+/* INTRODUÇÃO */
+
+.introducao {
+  width: 100%;
+  height: 900px;
+  padding: 60px 0;
+  background: #FCC302;
+  margin-top: 91px;
+}
+
+.introducao h1 {
+  font-size: 70px;
+  color: #ffffff;
+  font-weight: 800;
+  line-height: 66px;
+  text-align: left;
+  padding-top: 150px;
+  margin-bottom: 10%;
+}
+
+.introducao p {
+  font-size: 29px;
+  color: #ffffff;
+  font-weight: regular;
+  line-height: 35px;
+  text-align: left;
+  margin-top: 30px;
+  max-width: 500px;
+  margin-bottom: 7%;
+}
+
+.introducao img {
+  height: 750px;
+  padding-top: 30px;
+}
+
+/* FIM INTRODUÇÃO */
+
+/* SOBRE */
+
+.sobre {
+  height: 900px;
+  padding: 150px 0;
+}
+
+.sobre h2 {
+  font-size: 45px;
+  color: #000000;
+  font-weight: 800;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+
+.sobre p {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+  max-width: 400px;
+  margin-bottom: 10%;
+}
+
+.btn3 {
+  background: var(--amarelo);
+  padding: 12px 30px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 0.4em;
+  line-height: 30px;
+  letter-spacing: 0.07em;
+}
+
+.btn3:hover {
+  color: #ffffff;
+  background: #00BEC9;
+}
+
+/* FIM SOBRE */
+
+/* SERVIÇOS */
+
+.servicos {
+  height: 900px;
+  padding: 100px 0;
+  background-color: #FCC302;
+  text-align: center;
+}
+
+.subtitulo-servicos {
+  font-size: 70px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 80px;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+}
+
+.servicos-lista li {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: lighter;
+  text-align: center;
+  max-width: 300px;
+  margin-top: 7%;
+}
+
+.btn-servico {
+  padding-top: 70px;
+  text-align: center;
+  clear: both;
+}
+
+.btn-servico p {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+/* FIM SERVIÇOS */
+
+/* VETERINÁRIOS */
+
+.posts {
+  height: 1000px;
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.subtitulo-posts {
+  font-size: 70px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 80px;
+  color: #343434;
+  letter-spacing: 0.03em;
+}
+
+.p-posts {
+  font-size: 33px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 5rem;
+}
+
+.h3-posts {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 2%;
+  margin-top: 10%;
+}
+
+.h4-posts {
+  font-size: 16px;
+  color: #00BEC9;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.p1-posts{
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.p2-posts{
+  font-size: 20px;
+  color: #00BEC9;
+  font-weight: 800;
+  text-align: left;
+}
+
+/* FIM POSTS */
+
+
+/* FOOTER */
+.footer {
+  height: 700px;
+  width: 100%;
+  padding: 80px 0;
+  background: #343434;
+}
+
+.menu-footer ul {
+  height: 280px;
+  width: 250px;
+  align-items: left;
+  line-height: 2rem;
+}
+
+.menu-footer ul li a {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: left;
+  font-weight: light;
+}
+
+.menu-footer ul h4 {
+  font-size: 25px;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footer-a4 {
+  font-size: 25px;
+  color: #ffffff;
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 90px;
+}
+
+.footer-li {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: right;
+  font-weight: 400;
+}
+
+.footer-redes {
+  margin: 0 550px;
+  text-align: right;
+}
+
+.footer-redes ul li {
+  padding: 0px 3px;
+  display: inline-block;
+  text-align: right;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: lighter;
+  margin-top: 120px;
+  padding-top: 1rem;
+  border-top: #ffffff solid 2px;
+}
