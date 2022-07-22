@@ -1,5 +1,5 @@
 # Site-Clinica-Veterinaria
-Site Clínica Veterinária
+Site Clinica Veterinaria
 
 
 Link: https://funny-gecko-1daaf6.netlify.app/#home-section
